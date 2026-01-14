@@ -5,10 +5,26 @@ body{
   font-family: Arial, sans-serif;
 }
 
-.title {
-    text-align: center;
-    color: green;
-    margin: 15px 0;
+.main-title{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #0a7d2c;
+  text-transform: uppercase;
+  padding: 12px 10px;
+  margin: 15px 10px 25px;
+
+  border: 3px solid #0a7d2c;
+  border-radius: 12px;
+
+  background: linear-gradient(90deg,#eaffea,#ffffff,#eaffea);
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.25),
+    inset 0 0 8px rgba(10,125,44,0.4);
+
+  white-space: nowrap;      /* 🔥 MAIN FIX */
 }
 
 .app {
