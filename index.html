@@ -108,5 +108,18 @@
 
 </div><!-- app-list end -->
 
+<script>
+const searchInput = document.getElementById("searchInput");
+const apps = document.querySelectorAll(".app");
+
+searchInput.addEventListener("keyup", function () {
+  const value = this.value.toLowerCase();
+  apps.forEach(app => {
+    const text = app.innerText.toLowerCase();
+    app.style.display = text.includes(value) ? "flex" : "none";
+  });
+});
+</script>
+
 </body>
 </html>
