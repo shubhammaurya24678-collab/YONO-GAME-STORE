@@ -1,281 +1,31 @@
+/* ===== BASE ===== */
 body{
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(180deg, #fff2e0, #ffd6a0); /* premium orange */
-  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+  background:linear-gradient(180deg,#fff2e0,#ffd6a0);
+  font-family:Arial,sans-serif;
 }
 
+/* ===== MAIN TITLE ===== */
 .main-title{
-  text-align: center;
-  font-size: 26px;
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #0a7d2c;
-  text-transform: uppercase;
-  padding: 12px 10px;
-  margin: 15px 10px 25px;
+  text-align:center;
+  font-size:26px;
+  font-weight:900;
+  letter-spacing:2px;
+  color:#0a7d2c;
+  text-transform:uppercase;
+  padding:12px 10px;
+  margin:15px 10px 25px;
 
-  border: 3px solid #0a7d2c;
-  border-radius: 12px;
-
-  background: linear-gradient(90deg,#eaffea,#ffffff,#eaffea);
+  border:3px solid #0a7d2c;
+  border-radius:12px;
+  background:linear-gradient(90deg,#eaffea,#ffffff,#eaffea);
 
   box-shadow:
     0 4px 12px rgba(0,0,0,0.25),
     inset 0 0 8px rgba(10,125,44,0.4);
 
-  white-space: nowrap;      /* 🔥 MAIN FIX */
-}
-
-.app {
-    background: #fff;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.logo {
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-    object-fit: contain;
-}
-
-.info {
-    flex: 1;
-    font-size: 14px;
-}
-
-a {
-    display: inline-block;
-    background: green;
-    color: white;
-    padding: 6px 12px;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-.bonus{
-  color: red;
-  font-weight: 800;
-  font-size: 15px;
-}
-.withdraw{
-  color: green;
-  font-weight: 800;
-  font-size: 15px;
-
-  display: inline-flex;      /* 🔥 */
-  align-items: center;
-  gap: 4px;
-
-  white-space: nowrap;       /* 🔥 LINE BREAK ROKNE KE LIYE */
-}
- /* RANK BADGE */
-.rank{
-  width:36px;
-  height:36px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-weight:900;
-  color:white;
-  margin-right:10px;
-  font-size:16px;
-}
-
-/* TOP 3 HORIZONTAL CONTAINER */
-.top-cards{
-  display:flex;
-  gap:10px;
-  padding:12px;
-}
-
-/* TOP CARD LOOK */
-.top-cards .app{
-  flex:1;
-  flex-direction:column;
-  text-align:center;
-  position:relative;
-}
-
-/* RANK CIRCLE */
-.rank{
-  position:absolute;
-  top:-12px;
-  left:50%;
-  transform:translateX(-50%);
-  width:32px;
-  height:32px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-weight:900;
-  font-size:16px;
-}
-
-/* TOP 3 WRAPPER */
-.top-cards{
-  display:flex;
-  justify-content:center;
-  align-items:flex-end;
-  gap:14px;
-  padding:20px 12px;
-}
-
-/* BASE CARD */
-.top-card{
-  width:30%;
-  background:white;
-  border-radius:18px;
-  text-align:center;
-  padding:14px 10px 18px;
-  box-shadow:0 10px 22px rgba(0,0,0,0.18);
-  position:relative;
-  aspect-ratio:3 / 4;   /* 🔥 FIXED RATIO */
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-}
-
-/* FEATURED FIRST */
-.top-card.first{
-  transform:translateY(-18px) scale(1.05);
-  border:2px solid gold;
-  z-index:2;
-}
-
-/* SECOND & THIRD */
-.top-card.second,
-.top-card.third{
-  opacity:0.95;
-}
-
-/* LOGO */
-.top-card img{
-  width:70px;
-  height:70px;
-  margin:12px auto 6px;
-  border-radius:16px;
-  object-fit:contain;
-}
-
-/* TITLE */
-.top-card h4{
-  margin:6px 0 10px;
-  font-size:15px;
-  font-weight:900;
-  color:#111;
-}
-
-/* RANK BADGE */
-.top-card .rank{
-  position:absolute;
-  top:-14px;
-  left:50%;
-  transform:translateX(-50%);
-  width:34px;
-  height:34px;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-weight:900;
-}
-
-.first .rank{ background:gold; color:black; }
-.second .rank{ background:silver; color:black; }
-.third .rank{ background:#cd7f32; color:white; }
-
-/* BUTTON */
-.top-card a{
-  background:linear-gradient(135deg,#1db954,#0f9d58);
-  color:white;
-  padding:8px 0;
-  border-radius:22px;
-  font-weight:900;
-  text-decoration:none;
-  font-size:14px;
-}
-.main-title{
-  text-align: center;
-  font-size: 26px;
-  font-weight: 900;               /* extra bold */
-  letter-spacing: 2px;            /* premium spacing */
-  color: #0a7d2c;                 /* dark premium green */
-  text-transform: uppercase;
-  padding: 12px 10px;
-  margin: 15px 10px 25px;
-
-  border: 3px solid #0a7d2c;      /* border */
-  border-radius: 12px;
-
-  background: linear-gradient(
-    90deg,
-    #eaffea,
-    #ffffff,
-    #eaffea
-  );
-
-  box-shadow:
-    0 4px 12px rgba(0,0,0,0.25),   /* outer shadow */
-    inset 0 0 8px rgba(10,125,44,0.4); /* inner glow */
-}
-
-/* ===== AUTO NUMBERING FOR APP LIST ===== */
-.app-list {
-  counter-reset: appCount 3;
-}
-
-.app-list .app {
-  position: relative;
-  padding-left: 50px; /* number ke liye space */
-}
-
-.app-list .app::before {
-  counter-increment: appCount;
-  content: counter(appCount);
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: #0a7d2c;
-  color: #fff;
-  font-weight: 900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-}
-
-/* ===== FORCE LINKS TO BE CLICKABLE ===== */
-a {
-  position: relative;
-  z-index: 9999;
-  pointer-events: auto;
-}
-
-/* Fix for cards blocking clicks */
-.top-card,
-.app {
-  position: relative;
-  z-index: 1;
-}
-
-/* Remove any invisible overlay */
-.top-card::before,
-.top-card::after,
-.app::before,
-.app::after {
-  pointer-events: none !important;
+  white-space:nowrap;
 }
 
 /* ===== SEARCH BAR ===== */
@@ -296,7 +46,125 @@ a {
   box-shadow:0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* ===== PREMIUM TOP 3 RANK ===== */
+/* ===== APP CARD ===== */
+.app{
+  background:#fff;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  box-shadow:0 2px 6px rgba(0,0,0,0.15);
+  position:relative;
+  z-index:1;
+}
+
+.logo{
+  width:60px;
+  height:60px;
+  margin-right:10px;
+  object-fit:contain;
+}
+
+.info{
+  flex:1;
+  font-size:14px;
+}
+
+/* ===== BONUS & WITHDRAW ===== */
+.bonus{
+  color:red;
+  font-weight:800;
+  font-size:15px;
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  white-space:nowrap;
+}
+
+.withdraw{
+  color:green;
+  font-weight:800;
+  font-size:15px;
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  white-space:nowrap;
+}
+
+/* ===== BUTTON ===== */
+a{
+  display:inline-block;
+  background:green;
+  color:white;
+  padding:6px 12px;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+  position:relative;
+  z-index:9999;
+  pointer-events:auto;
+}
+
+/* ===== TOP 3 CARDS ===== */
+.top-cards{
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  gap:14px;
+  padding:20px 12px;
+}
+
+.top-card{
+  width:30%;
+  background:white;
+  border-radius:18px;
+  text-align:center;
+  padding:14px 10px 18px;
+  box-shadow:0 10px 22px rgba(0,0,0,0.18);
+  position:relative;
+  aspect-ratio:3/4;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.top-card.first{
+  transform:translateY(-18px) scale(1.05);
+  border:2px solid gold;
+  z-index:2;
+}
+
+.top-card.second,
+.top-card.third{
+  opacity:0.95;
+}
+
+.top-card img{
+  width:70px;
+  height:70px;
+  margin:12px auto 6px;
+  border-radius:16px;
+  object-fit:contain;
+}
+
+.top-card h4{
+  margin:6px 0 10px;
+  font-size:15px;
+  font-weight:900;
+  color:#111;
+}
+
+.top-card a{
+  background:linear-gradient(135deg,#1db954,#0f9d58);
+  color:white;
+  padding:8px 0;
+  border-radius:22px;
+  font-weight:900;
+  font-size:14px;
+}
+
+/* ===== TOP 3 RANK ===== */
 .top-card .rank{
   width:42px;
   height:42px;
@@ -331,32 +199,64 @@ a {
   box-shadow:0 0 14px #cd7f32;
 }
 
-/* ===== PREMIUM NORMAL NUMBERING ===== */
+/* ===== AUTO NUMBERING (START FROM 4) ===== */
+.app-list{
+  counter-reset:appCount 3;
+}
+
+.app-list .app{
+  padding-left:50px;
+}
+
 .app-list .app::before{
+  counter-increment:appCount;
+  content:counter(appCount);
+  position:absolute;
+  left:12px;
+  top:50%;
+  transform:translateY(-50%);
+  width:28px;
+  height:28px;
+  border-radius:50%;
   background:linear-gradient(135deg,#0a7d2c,#13a84a);
+  color:#fff;
+  font-weight:900;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:14px;
   box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }
 
+/* ===== TELEGRAM BOX ===== */
 .telegram-box{
-  margin: 10px 12px 20px;
-  text-align: center;
+  margin:10px 12px 20px;
+  text-align:center;
 }
 
 .telegram-box a{
-  display: block;
-  background: linear-gradient(135deg,#0088cc,#00aaff);
-  color: #fff;
-  padding: 14px 12px;
-  border-radius: 14px;
-  font-weight: 900;
-  text-decoration: none;
-  box-shadow: 0 6px 18px rgba(0,136,204,0.35);
+  display:block;
+  background:linear-gradient(135deg,#0088cc,#00aaff);
+  color:#fff;
+  padding:14px 12px;
+  border-radius:14px;
+  font-weight:900;
+  text-decoration:none;
+  box-shadow:0 6px 18px rgba(0,136,204,0.35);
 }
 
 .telegram-box a span{
-  display: block;
-  font-size: 12px;
-  font-weight: 500;
-  margin-top: 4px;
-  opacity: 0.95;
+  display:block;
+  font-size:12px;
+  font-weight:500;
+  margin-top:4px;
+  opacity:0.95;
+}
+
+/* ===== SAFETY (NO CLICK BLOCK) ===== */
+.top-card::before,
+.top-card::after,
+.app::before,
+.app::after{
+  pointer-events:none !important;
 }
