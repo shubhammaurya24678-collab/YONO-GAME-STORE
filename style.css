@@ -49,8 +49,8 @@ a {
 }
 .withdraw{
   color: green;
-  font-weight: 500;
-  font-size: 09px;
+  font-weight: 700;
+  font-size: 12px;
 
   display: inline-flex;      /* 🔥 */
   align-items: center;
