@@ -208,7 +208,7 @@ a {
 
 /* ===== AUTO NUMBERING FOR APP LIST ===== */
 .app-list {
-  counter-reset: appCount;
+  counter-reset: appCount 3;
 }
 
 .app-list .app {
