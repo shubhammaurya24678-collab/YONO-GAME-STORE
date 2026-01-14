@@ -50,7 +50,7 @@ a {
 .withdraw{
   color: green;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
 
   display: inline-flex;      /* 🔥 */
   align-items: center;
