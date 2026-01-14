@@ -320,3 +320,27 @@ a {
   background:linear-gradient(135deg,#0a7d2c,#13a84a);
   box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }
+
+.telegram-box{
+  margin: 10px 12px 20px;
+  text-align: center;
+}
+
+.telegram-box a{
+  display: block;
+  background: linear-gradient(135deg,#0088cc,#00aaff);
+  color: #fff;
+  padding: 14px 12px;
+  border-radius: 14px;
+  font-weight: 900;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0,136,204,0.35);
+}
+
+.telegram-box a span{
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+  opacity: 0.95;
+}
