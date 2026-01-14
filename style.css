@@ -47,11 +47,16 @@ a {
   font-weight: 800;
   font-size: 15px;
 }
-
 .withdraw{
   color: green;
-  font-weight: 900;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 13px;
+
+  display: inline-flex;      /* 🔥 */
+  align-items: center;
+  gap: 4px;
+
+  white-space: nowrap;       /* 🔥 LINE BREAK ROKNE KE LIYE */
 }
  /* RANK BADGE */
 .rank{
