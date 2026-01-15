@@ -276,25 +276,29 @@ a{
   pointer-events:none !important;
 }
 
-/* ===== NEW BADGE (IMAGE LEFT CORNER) ===== */
+/* ===== NEW LAUNCH RIBBON (45 DEGREE) ===== */
 .new-badge{
   position: absolute;
+  top: 14px;
+  left: -38px;
 
-  /* 🔥 IMAGE KE LEFT TOP CORNER */
-  top: 62px;          /* image ke level par */
-  left: 12px;
+  width: 120px;
+  text-align: center;
 
   background: linear-gradient(135deg,#ff3d00,#ff9800);
   color: #fff;
 
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 900;
   letter-spacing: 1px;
 
-  padding: 4px 8px;
-  border-radius: 6px;
+  padding: 4px 0;
 
-  box-shadow: 0 3px 8px rgba(255,61,0,0.6);
+  transform: rotate(-45deg);
+  transform-origin: left top;
+
+  box-shadow: 0 4px 10px rgba(255,61,0,0.6);
 
   z-index: 5;
+  pointer-events: none;
 }
