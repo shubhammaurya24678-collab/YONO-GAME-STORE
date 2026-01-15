@@ -275,3 +275,31 @@ a{
 .app::after{
   pointer-events:none !important;
 }
+
+/* ===== NEW LAUNCH BADGE ===== */
+.new-badge{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  background: linear-gradient(135deg,#ff3d00,#ff9800);
+  color: #fff;
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1px;
+
+  padding: 4px 10px;
+  border-radius: 20px;
+
+  box-shadow: 0 4px 10px rgba(255,61,0,0.6);
+
+  animation: pulseNew 1.5s infinite;
+}
+
+/* 🔥 subtle attention animation */
+@keyframes pulseNew{
+  0%{ transform: scale(1); }
+  50%{ transform: scale(1.08); }
+  100%{ transform: scale(1); }
+}
