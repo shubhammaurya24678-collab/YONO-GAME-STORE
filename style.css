@@ -279,26 +279,23 @@ a{
 /* ===== NEW LAUNCH RIBBON (45 DEGREE) ===== */
 .new-badge{
   position: absolute;
-  top: 14px;
-  left: -38px;
+  top: 10px;
+  left: -40px;
 
   width: 120px;
-  text-align: center;
+  padding: 5px 0;
 
-  background: linear-gradient(135deg,#ff3d00,#ff9800);
+  background: linear-gradient(135deg,#ff0000,#ff9800);
   color: #fff;
 
   font-size: 12px;
   font-weight: 900;
+  text-align: center;
   letter-spacing: 1px;
 
-  padding: 4px 0;
-
   transform: rotate(-45deg);
-  transform-origin: left top;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
 
-  box-shadow: 0 4px 10px rgba(255,61,0,0.6);
-
-  z-index: 5;
+  z-index: 999;
   pointer-events: none;
 }
