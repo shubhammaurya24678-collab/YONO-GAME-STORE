@@ -312,7 +312,7 @@ a{
   position: absolute;
 
   /* 🔥 IMAGE KE LEFT TOP CORNER */
-  Bottom: 12px;          /* image ke level par */
+  Bottom: 75px;          /* image ke level par */
   left: 12px;
 
   background: linear-gradient(135deg,#ff3d00,#ff9800);
