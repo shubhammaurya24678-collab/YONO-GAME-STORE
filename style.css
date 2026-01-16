@@ -307,13 +307,13 @@ a{
   height: 100%;
   object-fit: contain;
 }
-/* ===== NEW BADGE (IMAGE LEFT BOTTOM CORNER) ===== */
+/* ===== NEW BADGE (IMAGE LEFT CORNER) ===== */
 .new-badge{
   position: absolute;
 
-  /* 🔥 IMAGE KE LEFT BOTTOM CORNER */
-  bottom: 6px;
-  left: 6px;
+  /* 🔥 IMAGE KE LEFT TOP CORNER */
+  Bottom: 12px;          /* image ke level par */
+  left: 12px;
 
   background: linear-gradient(135deg,#ff3d00,#ff9800);
   color: #fff;
@@ -328,7 +328,4 @@ a{
   box-shadow: 0 3px 8px rgba(255,61,0,0.6);
 
   z-index: 5;
-  pointer-events: none;
 }
-
-
